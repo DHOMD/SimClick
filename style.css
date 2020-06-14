@@ -3988,20 +3988,21 @@ button#wp-custom-header-video-button {
 .slider-content-wrapper .section-content-wrap .hentry, .home .custom-header {
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 52px);
-  min-height: calc(100vh - 52px);
+  height: calc(48vh - 52px);
+  min-height: calc(48vh - 52px);
   min-height: -webkit-fill-available; }
 
 .home.admin-bar .slider-content-wrapper .section-content-wrap .hentry,
 .home.admin-bar .custom-header {
-  min-height: calc(100vh - 46px);
-  height: calc(100vh - 46px); }
+  min-height: calc(48vh - 46px);
+  height: calc(48vh - 46px); }
 
 @media screen and (min-width: 783px) {
   .home.admin-bar .slider-content-wrapper .section-content-wrap .hentry,
   .home.admin-bar .custom-header {
-    min-height: calc(100vh - 32px);
-    height: calc(100vh - 32px); } }
+    min-height: calc(48vh - 32px);
+    height: calc(48vh - 32px); } }
+
 .slider-content-wrapper .entry-container {
   left: 0;
   margin: 0 auto;
