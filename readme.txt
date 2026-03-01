@@ -2,7 +2,7 @@
 Contributors: catchthemes
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, wide-blocks, block-styles, blog, photography, portfolio
 Requires at least: 5.6
-Tested up to: 6.0
+Tested up to: 6.4
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -42,7 +42,7 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Copyright ==
 
-SimClick WordPress Theme, Copyright 2012-2022 Catchthemes.com
+SimClick WordPress Theme, Copyright 2012-2023 Catchthemes.com
 SimClick is distributed under the terms of the GNU GPL
 
 == Resources ==
@@ -101,6 +101,11 @@ SimClick is distributed under the terms of the GNU GPL
 If a large number of top level items are used in primary menu, there might be design issue. Please add only 6 menu items approximately.
 
 == Changelog ==
+
+= 1.2.1 (Released: February 26, 2024) =
+* Bug Fixed: Removed unnecessary comment code in custom-header.php
+* Removed: Depreciated Instagram Feed Plugin recommendation
+* Updated: WordPress 6.4 ready
 
 = 1.2 (Released: August 24, 2022) =
 * Bug Fixed: SimClick Pro Upgrade button in customizer

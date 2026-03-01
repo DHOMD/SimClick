@@ -277,17 +277,17 @@ function simclick_widgets_init() {
 	) );
 
 	//Optional Sidebar Five Footer Instagram
-	if ( class_exists( 'Catch_Instagram_Feed_Gallery_Widget' ) ||  class_exists( 'Catch_Instagram_Feed_Gallery_Widget_Pro' ) ) {
-		register_sidebar( array(
-			'name'          => esc_html__( 'Instagram', 'simclick'  ),
-			'id'            => 'sidebar-instagram',
-			'description'   => esc_html__( 'Appears above footer. This sidebar is only for Widget from plugin Catch Instagram Feed Gallery Widget and Catch Instagram Feed Gallery Widget Pro', 'simclick'  ),
-			'before_widget' => '<section id="%1$s" class="widget %2$s"><div class="widget-wrap">',
-			'after_widget'  => '</div></section>',
-			'before_title'  => '<div class="section-title-wrapper"><h2 class="section-title">',
-			'after_title'   => '</h2></div>',
-		) );
-	}
+
+	register_sidebar( array(
+		'name'          => esc_html__( 'Instagram', 'simclick'  ),
+		'id'            => 'sidebar-instagram',
+		'description'   => esc_html__( 'Appears above footer. This sidebar is only for Widget from plugin Catch Instagram Feed Gallery Widget and Catch Instagram Feed Gallery Widget Pro', 'simclick'  ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s"><div class="widget-wrap">',
+		'after_widget'  => '</div></section>',
+		'before_title'  => '<div class="section-title-wrapper"><h2 class="section-title">',
+		'after_title'   => '</h2></div>',
+	) );
+
 }
 add_action( 'widgets_init', 'simclick_widgets_init' );
 
@@ -661,13 +661,6 @@ function simclick_register_required_plugins() {
 		$plugins[] = array(
 			'name' => 'Essential Widgets', // Plugin Name, translation not required.
 			'slug' => 'essential-widgets',
-		);
-	}
-
-	if ( ! class_exists( 'Catch_Instagram_Feed_Gallery_Widget_Pro' ) ) {
-		$plugins[] = array(
-			'name' => 'Catch Instagram Feed Gallery & Widget', // Plugin Name, translation not required.
-			'slug' => 'catch-instagram-feed-gallery-widget',
 		);
 	}
 
