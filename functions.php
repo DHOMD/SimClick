@@ -281,7 +281,8 @@ function simclick_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Instagram', 'simclick'  ),
 		'id'            => 'sidebar-instagram',
-		'description'   => esc_html__( 'Appears above footer. This sidebar is only for Widget from plugin Catch Instagram Feed Gallery Widget and Catch Instagram Feed Gallery Widget Pro', 'simclick'  ),
+		'description'   => esc_html__( 'Appears above footer. This sidebar is only for Instagram Feed Gallery
+', 'simclick'  ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s"><div class="widget-wrap">',
 		'after_widget'  => '</div></section>',
 		'before_title'  => '<div class="section-title-wrapper"><h2 class="section-title">',
